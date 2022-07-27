@@ -1,1 +1,1 @@
-# CodeAcademy-Javascript_Task
+# CodeAcademy Javascript Tasks
