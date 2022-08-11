@@ -1,3 +1,91 @@
 html {
   font-family: "Roboto", sans-serif;
 }
+
+body {
+  background: #3e497a;
+}
+
+nav {
+  background: #21325e;
+  height: 5vh;
+  padding-left: 2%;
+  display: flex;
+  color: #f1d00a;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+nav div i {
+  font-size: 30px;
+}
+
+nav div h2 {
+  font-size: 25px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.calculator {
+  margin-top: 10%;
+}
+
+.calculator .result {
+  background-color: #fff;
+  height: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #faeee7;
+  color: #21325e;
+}
+
+.calculator .result ::placeholder {
+  color: #21325e;
+}
+
+.calculator input {
+  padding: 5px 10px;
+  text-align: center;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  background: #faeee7;
+  color: #21325e;
+  font-size: 16px;
+}
+
+.operators {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  color: #21325e;
+}
+
+.operators button {
+  padding: 5px 15px;
+  border: none;
+  background: #faeee7;
+  font-size: 16px;
+  color: #21325e;
+}
+
+.operators__equal {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.operators__clear {
+  width: 100%;
+  margin-top: 5%;
+}
