@@ -1,4 +1,12 @@
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: monospace;
 }
 
+body {
+  margin-top: 20%;
+  margin-left: 40%;
+}
+
+.drawing {
+  min-height: 30px;
+}
